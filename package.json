@@ -1,0 +1,19 @@
+{
+  "name": "google-sites-manager",
+  "version": "0.0.1",
+  "description": "Google site operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duizendstra/google-sites-manager.git"
+  },
+  "author": "Jasper Duizendstra <jasper@duizendstra.com> (www.duizendstra.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duizendstra/google-sites-manager/issues"
+  },
+  "homepage": "https://github.com/duizendstra/google-sites-manager#readme"
+}

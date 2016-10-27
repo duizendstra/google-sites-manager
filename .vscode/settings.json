@@ -1,0 +1,24 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.formatOnSave": false,
+    "jslint.options": {
+        "node": true,
+        "es6" :true,
+        "new" :true
+    }
+    //    "options" : [
+    //     // tolerate bitwise operators
+    //     "--bitwise"
+    //     // tolerate standard browser predefined globals
+    //     ,"--browser"
+    //     // tolerate the good parts of ES6
+    //     ,"--es6"
+    //     // tolerate 'eval'
+    //     ,"--eval"
+    //     // tolerate 'for'
+    //     ,"--for"
+    //     // start file and column counts from 1
+    //     ,"--fudge"
+    //     // tolerate 'this'
+    //     ,"--this"
+}
