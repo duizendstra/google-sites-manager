@@ -3,6 +3,7 @@ var https = require("https");
 function googleSitesManager() {
     "use strict";
     var x = Math.random();;
+
     function list(specs) {
         var entries = [];
 
@@ -12,9 +13,9 @@ function googleSitesManager() {
             function listEntries(options) {
                 var req = https.request(options, function (res) {
                     var output = "";
-                    console.log(options.host + ':' + res.statusCode + ':' + x +':' +options.headers.Authorization);
+                    console.log(options.host + ':' + res.statusCode + ':' + x + ':' + options.headers.Authorization);
 
-                    if (res.statusCode === 404 ||res.statusCode === 403 || res.statusCode === 401) {
+                    if (res.statusCode === 404 || res.statusCode === 403 || res.statusCode === 401) {
                         reject(res.statusCode);
                         return;
                     }
