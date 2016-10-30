@@ -14,7 +14,7 @@ function googleSitesManager() {
                     var output = "";
                     console.log(options.host + ':' + res.statusCode + ':' + x +':' +options.headers.Authorization);
 
-                    if (res.statusCode === 403 || res.statusCode === 401) {
+                    if (res.statusCode === 404 ||res.statusCode === 403 || res.statusCode === 401) {
                         reject(res.statusCode);
                         return;
                     }
